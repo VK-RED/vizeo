@@ -4,7 +4,12 @@
   "main": "index.ts",
   "types": "index.ts",
   "dependencies": {
-    "typescript-config" : "*"
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "typescript-config": "*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24"
+  }
 }
